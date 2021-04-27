@@ -1,0 +1,49 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    
+    font-weight: normal;
+    font-family: Gotham Rounded, sans-serif;
+    
+  }
+  h1#titulo {
+    color :rgba(255, 152, 152, 0.897);
+
+  }
+  body {
+    padding: 0;
+    margin: 0;
+    background:  #911d00;
+  }
+  
+  .gridcalculadora {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(4, 75px);
+    grid-template-rows: minmax(120px, auto) repeat(5, 75px);
+    align-content: center;
+  
+  }
+  
+  .gridcalculadora > button {
+    cursor: pointer;
+    font-size: 1.5rem;
+    outline: none;
+    border-radius: 20px;
+    margin: 2px;
+    background-color: rgba(227, 245, 177, 0.75);
+    border: 1px solid rgba(237, 248, 206, 0.75);
+  
+  }
+  
+  .gridcalculadora > button:hover {
+    background-color: rgba(252, 237, 237, 0.9);
+  }
+  
+  .span-two {
+    grid-column: span 2;
+  }
+  
+
+  
+  
+  
